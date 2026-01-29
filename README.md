@@ -163,7 +163,7 @@ I don’t know.
 
 ## 👨‍💻 Author
 
-<br>Tayyab Khan<br>
+Tayyab Khan<br>
 <br>BTech in AI & Data Science<br>
 Aspiring GenAI / AI Engineer
 
