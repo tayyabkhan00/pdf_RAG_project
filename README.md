@@ -239,12 +239,11 @@ I don’t know.
 - Academic & technical document analysis
 
 ## 👨‍💻 Author
-**Tayyab Khan**
-**BTech in AI & Data Science**
+**Tayyab Khan**<br>
+**BTech in AI & Data Science**<br>
 **Aspiring GenAI / AI Engineer**
 
 ## ⭐ Final Note
-
 This project demonstrates real-world GenAI engineering skills, including:
 - RAG architecture
 - Vector databases
