@@ -238,11 +238,6 @@ I don’t know.
 - Legal / policy document assistant
 - Academic & technical document analysis
 
-## 👨‍💻 Author
-**Tayyab Khan**<br>
-**BTech in AI & Data Science**<br>
-**Aspiring GenAI / AI Engineer**
-
 ## ⭐ Final Note
 This project demonstrates real-world GenAI engineering skills, including:
 - RAG architecture
@@ -250,5 +245,10 @@ This project demonstrates real-world GenAI engineering skills, including:
 - LLM orchestration
 - Secure API handling
 - Streaming UI
+
+## 👨‍💻 Author
+**Tayyab Khan**<br>
+**BTech in AI & Data Science**<br>
+**Aspiring GenAI / AI Engineer**
 
 **If you find this useful, feel free to ⭐ star the repository!**
