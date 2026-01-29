@@ -62,9 +62,9 @@ PDF_RAG_PROJECT/
 │── vectorstore/
 │ ├── index.faiss
 │ └── index.pkl
-│── ingest.py # PDF ingestion & vector creation
-│── app.py # Streamlit UI + streaming RAG
-│── .env # API key (ignored by git)
+│── ingest.py                     # PDF ingestion & vector creation
+│── app.py                        # Streamlit UI + streaming RAG
+│── .env                          # API key (ignored by git)
 │── .gitignore
 │── requirements.txt
 │── README.md
@@ -132,12 +132,10 @@ The app will open in your browser automatically.
 - What are the limitations of this approach?
 
 **❌ Out-of-scope questions (correctly handled):**
-
 - What is the capital of France?
-<br>➡️ Response:<br>
-```
+**➡️ Response:**
 I don’t know.
-```
+
 ## 🔥 Key Highlights
 
 - Uses modern LangChain LCEL (no deprecated chains)
