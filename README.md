@@ -124,7 +124,85 @@ streamlit run app.py
 The app will open in your browser automatically.
 
 ## 🧪 Example Questions You Can Ask
+Here are good, realistic questions you should try on your PDF Q&A bot (from easy → advanced).
 
+**🔹 Basic Understanding (Warm-up)**
+
+- “What is the main problem this paper is trying to solve?”
+- “Summarize the abstract in simple words.”
+- “What is the title of this paper?”
+- “Who is the author of this paper?”
+
+**👉 These confirm document ingestion is correct.**
+
+**🔹 Conceptual / Technical Questions**
+
+- “What is an Autonomous QA Agent according to the paper?”
+- “How does the proposed system use RAG?”
+- “Why are LLMs unreliable for Selenium script generation?”
+- “What role does retrieval play in reducing hallucination?”
+
+**👉 These test semantic search + context grounding.**
+
+**🔹 Methodology Section (Very Important)**
+
+- “Explain the methodology used in this paper.”
+- “What types of documents are ingested into the vector database?”
+- “How does the system generate Selenium scripts?”
+- “What frameworks or tools are used in the proposed approach?”
+
+**👉 These show deep chunk retrieval, not surface text.**
+
+**🔹 Results & Evaluation (Interview-Level)**
+
+- “What were the evaluation metrics used?”
+- “How does the RAG approach compare with a standard LLM?”
+- “What accuracy or success rate did the system achieve?”
+- “What are the key experimental results?”
+
+**👉 These prove your bot handles numbers + evidence.**
+
+**🔹 Critical Thinking / Insight Questions**
+
+- “What are the limitations of this approach?”
+- “What future work is suggested by the authors?”
+- “In which scenarios might this system fail?”
+- “Why is RAG better than fine-tuning in this case?”
+
+**👉 These separate real RAG from keyword search.**
+
+**🔹 Negative Test (VERY IMPORTANT)**
+
+- “Explain how GPT-4 was trained.”
+- “What is the capital of France?”
+
+**✅ Expected answer:**
+- “I don’t know.”
+
+This proves:
+- Hallucination control
+- Prompt discipline
+- Production readiness
+
+**🔥 Best Demo Questions (Use These in Interviews)**
+
+If you’re showing this project to someone, ask:
+
+- “How does the Autonomous QA Agent reduce hallucination when generating Selenium scripts?”
+- “What evidence does the paper provide that RAG improves execution success?”
+These make your project look research-grade.
+
+**🧠 Pro Tip (Important)**
+
+If answers feel weak:
+
+- Increase k from 3 → 5
+- Slightly increase chunk overlap
+- Ask more specific questions
+
+✅ One-Line Summary
+
+Good RAG questions are specific, document-grounded, and evidence-based.
 - What is the main problem this paper addresses?
 - Explain the proposed methodology.
 - How does RAG improve reliability?
@@ -134,6 +212,7 @@ The app will open in your browser automatically.
 **❌ Out-of-scope questions (correctly handled):**
 - What is the capital of France?
 **➡️ Response:**
+  
 I don’t know.
 
 ## 🔥 Key Highlights
