@@ -162,8 +162,7 @@ I don’t know.
 - Academic & technical document analysis
 
 ## 👨‍💻 Author
-
-Tayyab Khan<br>
+Tayyab Khan
 <br>BTech in AI & Data Science<br>
 Aspiring GenAI / AI Engineer
 
